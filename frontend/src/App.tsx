@@ -5,7 +5,16 @@ import './App.css';
 // Get API URL from environment variable or use default
 const API_URL = import.meta.env.VITE_API_URL || '';
 axios.defaults.timeout = 10000;
-axios.defaults.baseURL = API_URL;
+// Set baseURL - if empty, axios will use relative URLs (which won't work in production)
+// So we need to ensure API_URL is always set for production
+if (API_URL) {
+  axios.defaults.baseURL = API_URL;
+} else {
+  // Fallback: try to detect if we're in production and log error
+  console.warn('VITE_API_URL is not set! Backend connection will fail.');
+  // In production, we need the full URL
+  axios.defaults.baseURL = '';
+}
 
 function App() {
   const [tab, setTab] = useState('voice');

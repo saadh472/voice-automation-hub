@@ -30,6 +30,19 @@ This project is **fully portable** - just extract the zip file and double-click 
 
 ## 🚀 Quick Start
 
+### 📥 Getting the Project
+
+**From GitHub:**
+```bash
+git clone https://github.com/saadh472/voice-automation-hub.git
+cd voice-automation-hub
+```
+
+**Or Download ZIP:**
+1. Go to: https://github.com/saadh472/voice-automation-hub
+2. Click "Code" → "Download ZIP"
+3. Extract and open the folder
+
 ### Prerequisites
 
 **Required:**
@@ -44,6 +57,8 @@ This project is **fully portable** - just extract the zip file and double-click 
 ### Launch Application
 
 **Just double-click:** `LAUNCH.bat`
+
+**Or see:** `HOW_TO_RUN.md` for detailed instructions
 
 The launcher will:
 - ✅ Check all prerequisites automatically

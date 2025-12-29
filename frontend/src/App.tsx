@@ -2,8 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import './App.css';
 
+// Get API URL from environment variable or use default
+const API_URL = import.meta.env.VITE_API_URL || '';
 axios.defaults.timeout = 10000;
-axios.defaults.baseURL = '';
+axios.defaults.baseURL = API_URL;
 
 function App() {
   const [tab, setTab] = useState('voice');

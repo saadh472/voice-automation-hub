@@ -1,0 +1,27 @@
+🔗 CORRECT GITHUB LINKS FOR YOUR PROJECT:
+
+📦 Repository Homepage:
+https://github.com/saadh472/voice-automation-hub
+
+📥 Clone URL (for git clone):
+https://github.com/saadh472/voice-automation-hub.git
+
+📋 Raw File URLs:
+- README: https://github.com/saadh472/voice-automation-hub/blob/main/README.md
+- LAUNCH.bat: https://github.com/saadh472/voice-automation-hub/blob/main/LAUNCH.bat
+
+🌐 GitHub Pages (if enabled):
+https://saadh472.github.io/voice-automation-hub
+
+---
+❌ WRONG URL (what you tried):
+github.com/saadh472/voice-automation-hub.git%20cd%20voice-automation-hub
+
+✅ CORRECT URL (use this):
+https://github.com/saadh472/voice-automation-hub
+
+---
+💡 TIP: 
+- For BROWSER: Use URL WITHOUT .git
+- For GIT CLONE: Use URL WITH .git
+
